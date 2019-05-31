@@ -1,0 +1,115 @@
+/* General styles */
+p{
+    /* Sets a max-width for all paragraphs */
+    max-width:650px;
+
+    /* Uses the margin trick to center */
+    margin:10px auto;
+
+    /*Sets a line height for the paragraphs*/
+    line-height: 1.4;
+
+    text-align: left;
+  }
+
+ img{
+
+ 	/* Automatically resizes the images to fit the window width */
+ 	max-width: 100%;
+ 	height: auto;
+ }
+
+
+ /* Link styles */
+a{
+	color: #ad466c;
+}
+
+a:hover{
+ 	background: #e6e6e6;
+ }
+
+ 
+/* Body styles */
+ body{
+
+ 	/* Sets the font family for the body*/
+	font-family: 'Roboto', sans-serif;
+
+	text-align: center;
+ }
+
+/* Header styles */
+header{
+
+	/* Centers the header text */
+	text-align: center;
+
+	/* Sets the font family for the body*/
+	font-family: 'Roboto', sans-serif;
+
+}
+
+header h1{
+
+	/* Limits the width of the headline so that it's more readable */
+	max-width: 760px;
+
+	/* Uses the margin trick to center */
+	margin: 10px auto;
+ 
+	/* Left-aligns the text */
+	text-align: left;
+}
+
+header h2{
+
+	/* Limits the width of the headline so that it's more readable */
+	max-width: 750px;
+
+	/*Sets a smaller font size for h2s in the header section */
+	font-size: 18px;
+
+	/* Uses the margin trick to center */
+	margin: 10px auto;
+
+	/* Left-aligns the text */
+	text-align: left;
+}
+
+figure{
+
+ 	/* This display allows the figcaption to align with the image */
+ 	display:inline-block;
+
+	/* Uses the margin trick to center */
+ 	margin: 0px auto;
+
+ }
+
+ img {
+
+ 	display: inline-block;
+
+ 	text-align: center;
+ }
+
+ figcaption{
+
+ 	/* Sets the font size for the caption text */
+	font-size: 12px;
+	
+	/* Right-aligns the caption text */
+	text-align: right;
+
+	/* A margin-left of 20px helps the caption appear centered with the image even though it's technically a little shorter */
+	margin-left: 20px;
+ }
+
+/* Styles for the final section */
+section.last{
+
+	/*  Adds some breathing room after the last paragraph */
+	margin-bottom: 25px;
+}
+
